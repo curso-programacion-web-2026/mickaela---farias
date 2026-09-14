@@ -1,6 +1,205 @@
-body{
-    font-family: 'Arial', sans-serif;
-    font-size: 50px;
-    color: #000000;
-    background-color: #fb684e;
+/* ==========================================
+   1. RESET Y ESTILOS GLOBALES
+   ========================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffcf2;
+  color: #7c6b36;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  margin: 20px 0;
+}
+
+/* ==========================================
+   2. CABECERA (header y nav)
+   ========================================== */
+header {
+  background-color: #1a1a1a;
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  color: rgb(241, 237, 228);
+  font-size: 3.5rem;
+  font-family: 'Press Gothic', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header .subtitulo {
+  color: #aaa;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+nav a {
+  color: rgb(201, 189, 172);
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* ==========================================
+   3. SECCIÓN INICIO (#inicio)
+   ========================================== */
+#inicio h2 {
+  color: rgb(201, 189, 172);
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+article p {
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+/* ==========================================
+   4. SECCIÓN PERSONAJES (#personajes)
+   ========================================== */
+#personajes h2 {
+  color: rgb(160, 150, 137);
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mi-imagen {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+}
+
+#personajes h3 {
+  color: rgb(198, 199, 196);
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 30px 0 15px 0;
+}
+
+/* TABLA DE PERSONAJES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #181818;
+}
+
+table, th, td {
+  border: 1px solid #333;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #252525;
+  color: #fff;
+}
+
+td img {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* ==========================================
+   5. SECCIÓN INFECCIÓN (#infeccion)
+   ========================================== */
+.titulo-destacado {
+  background-color: #FFb6c1;
+  color: #57704a;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.img-infeccion {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+}
+
+#infeccion h2 {
+  color: rgb(61, 85, 55);
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 25px 0 15px 0;
+}
+
+/* LISTA DE INFECTADOS */
+.lista-infectados {
+  list-style: none;
+}
+
+.lista-infectados li {
+  background-color: #181818;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid #8b0000;
+  border-radius: 4px;
+}
+
+.lista-infectados img {
+  display: block;
+  max-width: 250px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+/* FICHA TÉCNICA */
+.ficha-tecnica {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.logo-developer {
+  width: 120px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* ==========================================
+   6. FOOTER
+   ========================================== */
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #222;
+  color: #777;
 }
