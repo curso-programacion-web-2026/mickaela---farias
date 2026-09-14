@@ -9,7 +9,7 @@
 
 body {
   background-color: #fffcf2;
-  color: #7c6b36;
+  color: #8a7a4a;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
@@ -17,7 +17,7 @@ body {
 main {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 50px;
 }
 
 hr {
@@ -45,7 +45,7 @@ header h1 {
 }
 
 header .subtitulo {
-  color: #aaa;
+  color: #f9e8cd;
   font-style: italic;
   margin-bottom: 15px;
 }
@@ -134,8 +134,8 @@ td img {
    5. SECCIÓN INFECCIÓN (#infeccion)
    ========================================== */
 .titulo-destacado {
-  background-color: #FFb6c1;
-  color: #57704a;
+  background-color: #fff6b689;
+  color: #465b3b;
   padding: 10px 15px;
   border-radius: 6px;
   font-size: 1.8rem;
@@ -151,7 +151,7 @@ td img {
 }
 
 #infeccion h2 {
-  color: rgb(61, 85, 55);
+  color: rgb(59, 82, 53);
   font-size: 1.8rem;
   text-align: center;
   margin: 25px 0 15px 0;
@@ -166,7 +166,7 @@ td img {
   background-color: #181818;
   padding: 15px;
   margin-bottom: 15px;
-  border-left: 4px solid #8b0000;
+  border-left: 4px solid #5a0606;
   border-radius: 4px;
 }
 
