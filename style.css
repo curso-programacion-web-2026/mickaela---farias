@@ -1,6 +1,4 @@
-/* ==========================================
-   1. RESET Y ESTILOS GLOBALES
-   ========================================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +7,7 @@
 
 body {
   background-color: #fffcf2;
-  color: #8a7a4a;
+  color: #5e5332;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
@@ -23,14 +21,11 @@ main {
 hr {
   border: 0;
   height: 1px;
-  background: #333;
+  background: #000000;
   margin: 20px 0;
 }
 
-/* ==========================================
-   2. CABECERA Y MENÚ DE NAVEGACIÓN
-   (Ejercicio 3: Menú horizontal)
-   ========================================== */
+
 header {
   background-color: #1a1a1a;
   padding: 30px;
@@ -38,22 +33,25 @@ header {
 }
 
 header h1 {
-  color: rgb(241, 237, 228);
+  color: rgb(219, 212, 195);
   font-size: 3.5rem;
   font-family: 'Press Gothic', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
-header .subtitulo {
-  color: #f9e8cd;
-  font-style: italic;
-  margin-bottom: 15px;
+ header .subtitulo {
+    color: #c6baa8;
+    font-size: 30px;
+    font-family: 'Press Gothic', Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 30px;
 }
+
 
 nav a {
   display: inline-block; /* Requisito Ejercicio 3: display horizontal */
-  color: rgb(201, 189, 172);
+  color: rgb(193, 173, 145);
   text-decoration: none;
   margin: 0 15px;
   padding: 8px 12px;
@@ -62,12 +60,10 @@ nav a {
 }
 
 nav a:hover {
-  color: #fff;
+  color: #3b3721;
 }
 
-/* ==========================================
-   3. SECCIÓN INICIO (#inicio)
-   ========================================== */
+/
 #inicio h2 {
   color: rgb(201, 189, 172);
   font-size: 2.2rem;
@@ -75,14 +71,11 @@ nav a:hover {
 }
 
 article p {
-  margin-bottom: 15px;
-  color: #ccc;
+  margin-bottom: 0px;
+  color: #191111;
 }
 
-/* ==========================================
-   4. SECCIÓN TARJETAS (.seccion-cards y .card)
-   (Ejercicios 1, 2, 2.2 y 2.3)
-   ========================================== */
+
 .seccion-cards {
   text-align: center;
   padding: 20px 0;
@@ -109,7 +102,7 @@ article p {
 }
 
 .card h2 {
-  color: #fff;
+  color: #d0bb9e;
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
@@ -135,7 +128,7 @@ article p {
    5. SECCIÓN PERSONAJES (#personajes)
    ========================================== */
 #personajes h2 {
-  color: rgb(160, 150, 137);
+  color: rgb(113, 98, 78);
   font-size: 2.2rem;
   text-align: center;
   margin-bottom: 20px;
@@ -151,7 +144,7 @@ article p {
 }
 
 #personajes h3 {
-  color: rgb(198, 199, 196);
+  color: rgb(108, 100, 71);
   font-size: 1.8rem;
   text-align: center;
   margin: 30px 0 15px 0;
@@ -185,12 +178,9 @@ td img {
   border-radius: 4px;
 }
 
-/* ==========================================
-   6. SECCIÓN INFECCIÓN (#infeccion)
-   ========================================== */
 .titulo-destacado {
-  background-color: #fff6b689;
-  color: #465b3b;
+  background-color: #fff29389;
+  color: #000000;
   padding: 10px 15px;
   border-radius: 6px;
   font-size: 1.8rem;
@@ -206,7 +196,7 @@ td img {
 }
 
 #infeccion h2 {
-  color: rgb(59, 82, 53);
+  color: rgb(63, 52, 38);
   font-size: 1.8rem;
   text-align: center;
   margin: 25px 0 15px 0;
@@ -218,7 +208,7 @@ td img {
 }
 
 .lista-infectados li {
-  background-color: #181818;
+  background-color: #090909;
   padding: 15px;
   margin-bottom: 15px;
   border-left: 4px solid #5a0606;
@@ -232,8 +222,22 @@ td img {
   margin-top: 10px;
   border-radius: 4px;
 }
+#recorrido, #armas-crafting, #banda-sonora {
+  padding: 30px 0;
+}
+#recorrido h2, #armas-crafting h2, #banda-sonora h2 {
+  color: rgb(92, 77, 56);
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
 
-/* FICHA TÉCNICA */
+#recorrido ul li {
+  background-color: #181818;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-left: 4px solid #8b0000;
+  border-radius: 4px;
+}
 .ficha-tecnica {
   display: flex;
   align-items: center;
@@ -247,9 +251,7 @@ td img {
   border-radius: 4px;
 }
 
-/* ==========================================
-   7. FOOTER
-   ========================================== */
+
 footer {
   background-color: #111;
   text-align: center;
