@@ -226,7 +226,7 @@ td img {
   padding: 30px 0;
 }
 #recorrido h2, #armas-crafting h2, #banda-sonora h2 {
-  color: rgb(92, 77, 56);
+  color: rgb(122, 108, 88);
   font-size: 2rem;
   margin-bottom: 15px;
 }
@@ -249,6 +249,44 @@ td img {
   width: 120px;
   height: auto;
   border-radius: 4px;
+}
+.contenedor {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    color: #4e3d1d;
+}
+
+#formulario-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+#formulario-contacto button {
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #cfc68f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#formulario-contacto button:hover {
+    background-color: #6a633f;
 }
 
 
